@@ -1,0 +1,7 @@
+{
+  "name": "payband",
+  "private": true,
+  "dependencies": {
+    "kube": "https://github.com/imperavi/kube.git#1c73a6146"
+  }
+}

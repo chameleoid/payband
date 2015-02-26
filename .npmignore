@@ -1,0 +1,10 @@
+.git
+
+*.log
+*~
+
+docs
+tmp
+
+config.json
+_vimrc_local.vim

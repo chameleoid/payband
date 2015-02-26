@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+        - 0.10
+before_script:
+        - npm install -g gulp
+notifications:
+        irc:
+                channels:
+                        - "irc.rizon.net#chameleoid"
+                on_success: change
+                on_failure: change
