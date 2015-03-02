@@ -2,14 +2,19 @@
      width="512" height="512"
      viewBox="0 0 512 512">
 
-  <circle fill="#555" cx="256" cy="256" r="256" />
+  <circle fill="#616161" cx="256" cy="256" r="256" />
+  <path fill="#D4E157" d="M 156,115 A 1,1 0 0,1 350,400 z" />
+  <path fill="#9CCC65" d="M 156,115 L 90,200 L 90,325 L 150,400 L 256,256 z" />
+  <path fill="#66BB6A" d="M 150,400 L 256,425 L 350,400 L 256,256 z" />
 
-  <g stroke-width="32" stroke="#fff">
-    <circle fill="#0b5" cx="256" cy="256" r="176" />
+  <g stroke-width="32" stroke="#fff" fill="none">
+    <circle cx="256" cy="256" r="176" />
 
     <g transform="translate(256 256) rotate(35)">
       <line x1="0" y1="0" x2="0" y2="176" />
-      <line x1="0" y1="-176" x2="0" y2="176" transform="rotate(110)" />
+      <g transform="rotate(110)">
+        <line x1="0" y1="-176" x2="0" y2="176" />
+      </g>
     </g>
   </g>
 </svg>
