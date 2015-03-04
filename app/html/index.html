@@ -5,6 +5,8 @@
 <base href="/">
 
 <body ng-app="pbApp">
+  <div ng-if="!errorTemplateUrl" ng-view></div>
+  <div ng-if="errorTemplateUrl" ng-include="errorTemplateUrl"></div>
 </body>
 
 <link rel="stylesheet/less" href="/css/payband.less">
