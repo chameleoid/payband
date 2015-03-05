@@ -2,6 +2,7 @@
 
 var express = require('express');
 var app = express();
+var schema = require('./schema');
 
 app.use(require('morgan')('dev'));
 
