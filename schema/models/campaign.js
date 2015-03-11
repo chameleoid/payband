@@ -7,6 +7,7 @@ module.exports = function(sequelize, DataTypes) {
     },
 
     title: DataTypes.STRING,
+    description: DataTypes.STRING,
 
     goal: DataTypes.INTEGER,
     current: DataTypes.INTEGER,
