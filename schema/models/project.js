@@ -11,5 +11,7 @@ module.exports = function(sequelize, DataTypes) {
 
     goal: DataTypes.INTEGER,
     current: DataTypes.INTEGER,
+
+    interval: DataTypes.INTEGER,
   });
 };
