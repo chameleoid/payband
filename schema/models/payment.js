@@ -8,6 +8,7 @@ module.exports = function(sequelize, DataTypes) {
 
     date: DataTypes.DATE,
     value: DataTypes.INTEGER,
+    stripeToken: DataTypes.STRING,
   });
 };
 
