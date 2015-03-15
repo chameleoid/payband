@@ -6,8 +6,13 @@ module.exports = function(sequelize, DataTypes) {
       defaultValue: DataTypes.UUIDV1,
     },
 
+    // Goal title
     title: DataTypes.STRING,
+
+    // Goal description
     description: DataTypes.STRING,
+
+    // Goal value
     value: DataTypes.INTEGER,
   });
 };

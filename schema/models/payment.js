@@ -6,9 +6,14 @@ module.exports = function(sequelize, DataTypes) {
       defaultValue: DataTypes.UUIDV1,
     },
 
+    // Date payment was received
     date: DataTypes.DATE,
+
+    // Value of payment
     value: DataTypes.INTEGER,
-    stripeToken: DataTypes.STRING,
+
+    // Stripe ID of payment
+    stripeID: DataTypes.STRING,
   });
 };
 
