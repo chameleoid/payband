@@ -15,7 +15,7 @@ module.exports = function(sequelize, DataTypes) {
     // User's display name
     username: DataTypes.STRING,
 
-    // Stripe token used for billing
-    stripeToken: DataTypes.STRING,
+    // Stripe ID of card used for billing
+    stripeID: DataTypes.STRING,
   });
 };
