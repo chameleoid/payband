@@ -6,13 +6,22 @@ module.exports = function(sequelize, DataTypes) {
       defaultValue: DataTypes.UUIDV1,
     },
 
+    // Campaign title
     title: DataTypes.STRING,
+
+    // Campaign description
     description: DataTypes.STRING,
 
+    // Campaign goal
     goal: DataTypes.INTEGER,
+
+    // Current cache'd sum of payments in campaign
     current: DataTypes.INTEGER,
 
+    // Start date of campaign
     startdate: DataTypes.DATE,
+
+    // End date of campaign
     enddate: DataTypes.DATE,
   });
 };
