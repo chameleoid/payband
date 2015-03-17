@@ -12,10 +12,10 @@ module.exports = function(sequelize, DataTypes) {
     // Description of project
     description: DataTypes.STRING,
 
-    // Income goal of billing interval
+    // Income goal of billing interval, in cents
     goal: DataTypes.INTEGER,
 
-    // Current value of transactional income per billing interval
+    // Current value of transactional income per billing interval, in cents
     current: DataTypes.INTEGER,
 
     // Billing interval (in days)

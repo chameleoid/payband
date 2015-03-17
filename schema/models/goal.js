@@ -12,7 +12,7 @@ module.exports = function(sequelize, DataTypes) {
     // Goal description
     description: DataTypes.STRING,
 
-    // Goal value
+    // Goal value, in cents
     value: DataTypes.INTEGER,
   });
 };

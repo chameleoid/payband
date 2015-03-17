@@ -12,10 +12,10 @@ module.exports = function(sequelize, DataTypes) {
     // Campaign description
     description: DataTypes.STRING,
 
-    // Campaign goal
+    // Campaign goal, in cents
     goal: DataTypes.INTEGER,
 
-    // Current cache'd sum of payments in campaign
+    // Current cache'd sum of payments in campaign, in cents
     current: DataTypes.INTEGER,
 
     // Start date of campaign

@@ -9,7 +9,7 @@ module.exports = function(sequelize, DataTypes) {
     // Date payment was received
     date: DataTypes.DATE,
 
-    // Value of payment
+    // Value of payment, in cents
     value: DataTypes.INTEGER,
 
     // Stripe ID of payment
