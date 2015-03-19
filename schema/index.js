@@ -9,8 +9,12 @@ var Project = db.import(__dirname + '/models/project.js');
 var Goal = db.import(__dirname + '/models/goal.js');
 
 var Payment = db.import(__dirname + '/models/payment.js');
+var Subscription = db.import(__dirname + '/models/subscription.js');
 
 Payment.hasOne(User);
+
+Subscription.hasOne(User);
+User.hasOne(Subscription);
 
 Campaign.hasMany(Goal);
 Project.hasMany(Goal);
